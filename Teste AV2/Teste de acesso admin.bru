@@ -1,0 +1,15 @@
+meta {
+  name: Teste de acesso admin
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://localhost:8081/api/teste/admin
+  body: none
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc1MDkxMTA2MSwiZXhwIjoxNzUwOTE0NjYxfQ.17aUVg-q8wAnXEbP9lktIrVeiGZdoWZyMh7wdzknGYI
+}
